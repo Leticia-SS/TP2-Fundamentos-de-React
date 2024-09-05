@@ -1,9 +1,10 @@
-import { Link } from 'react-router-dom'
+import Products from './Products_Ex9'
 
 const Ex9 = () => {
 
     return(
         <>
+            <Products/>
         </>
     )
 }

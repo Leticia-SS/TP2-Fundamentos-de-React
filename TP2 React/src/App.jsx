@@ -15,7 +15,7 @@ const App = () => {
         <div className="app-container">
           <nav>
             <ul className="app-links">
-              <li><Link to="/">Home</Link></li>
+              <li><Link to="/">Início</Link></li>
               <li><Link to="/exercicio8">Exercicio 8</Link></li>
               <li><Link to="/exercicio9">Exercicio 9</Link></li>
               <li><Link to="/exercicio10">Exercicio 10</Link></li>
@@ -26,7 +26,7 @@ const App = () => {
           <main>
             <section className="grid">
               <Routes>
-                <Route path="/" element={<h1>Welcome to my app!</h1>} />
+                <Route path="/" element={<h1>Clique num exercício para abrir</h1>} />
                 <Route path="/exercicio8" element={<Ex8 />} />
                 <Route path="/exercicio9" element={<Ex9 />} />
                 <Route path="/exercicio10" element={<Ex10 />} />

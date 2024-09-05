@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const Ex12 = () => {
+const Products = () => {
 
     const [data, setData] = useState([]);
 
@@ -24,10 +24,6 @@ const Ex12 = () => {
 
     }, []);
 
-    if(!data){
-        return <div>Carregando...</div>
-      }
-
     const listStyle = {
         listStyleType: 'none',
         padding: 0
@@ -35,6 +31,7 @@ const Ex12 = () => {
    
     return(
         <>
+            <h1>Produtos Lista</h1>
             <ul style={listStyle}>
             {data.map((product) => (
                     <li key={product.id}>{product.title}</li>
@@ -44,5 +41,4 @@ const Ex12 = () => {
     )
 }
 
-export default Ex12
-
+export default Products
