@@ -27,8 +27,8 @@ const App = () => {
               <li><Link to="/exercicio12">Exercicio 12</Link></li>
               <li><Link to="/exercicio13">Exercicio 13</Link></li>
               <li><Link to="/exercicio14">Exercicio 14</Link></li>
-              <li><Link to="/exercicio12">Exercicio 15</Link></li>
-              <li><Link to="/exercicio12">Exercicio 16</Link></li>
+              <li><Link to="/exercicio15">Exercicio 15</Link></li>
+              <li><Link to="/exercicio16">Exercicio 16</Link></li>
             </ul>
           </nav>
           <main>
