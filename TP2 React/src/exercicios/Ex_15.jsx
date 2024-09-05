@@ -19,7 +19,7 @@ const Ex15 = () => {
   
     return (
       <>
-        <label htmlFor="categories">Escolha uma categoria:</label>
+        <label htmlFor="categories">Escolha uma categoria:</label><br></br>
         <select id="categories" name="categories">
           {categories.map((category, index) => (
             <option key={index} value={category}>
